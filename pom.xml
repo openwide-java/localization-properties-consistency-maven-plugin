@@ -21,8 +21,8 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>org.apache.directory.studio</groupId>
-			<artifactId>org.apache.commons.io</artifactId>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
 			<version>2.4</version>
 		</dependency>
 		
@@ -31,14 +31,6 @@
 			<groupId>org.apache.maven.plugin-tools</groupId>
 			<artifactId>maven-plugin-annotations</artifactId>
 			<version>3.2</version>
-		</dependency>
-		
-		<!-- junit -->
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.8.2</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	
@@ -62,4 +54,23 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+		<repository>
+			<id>nexus-owsi-core</id>
+			<name>Nexus OWSI Core</name>
+			<url>https://projects.openwide.fr/services/nexus/content/repositories/owsi-core</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-owsi-core-snapshots</id>
+			<name>Nexus OWSI Core Snapshots</name>
+			<url>https://projects.openwide.fr/services/nexus/content/repositories/owsi-core-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
+	<scm>
+		<url>https://github.com/openwide-java/localization-properties-consistency-maven-plugin</url>
+		<connection>scm:git:git@github.com:openwide-java/localization-properties-consistency-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:openwide-java/localization-properties-consistency-maven-plugin.git</developerConnection>
+	</scm>
 </project>
