@@ -21,8 +21,6 @@ This is package as a Maven Plugin, to use it you will need to add the following 
     		</execution>
     	</executions>
     </plugin>
-  
-This is still a `SNAPSHOT` version and it hasn't been deployed outside of Open Wide yet.
 
 About
 -----
