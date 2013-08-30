@@ -3,7 +3,7 @@
 	<groupId>fr.openwide.maven.plugins</groupId>
 	<artifactId>localization-properties-consistency-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>properties-consistency-maven-plugin Maven Mojo</name>
 	<url>http://maven.apache.org</url>
 	
