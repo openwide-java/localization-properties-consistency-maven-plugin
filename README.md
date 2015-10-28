@@ -11,7 +11,7 @@ This is package as a Maven Plugin, to use it you will need to add the following 
     <plugin>
     	<groupId>fr.openwide.maven.plugins</groupId>
     	<artifactId>localization-properties-consistency-maven-plugin</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
+    	<version>1.0.0</version>
     	<executions>
     		<execution>
     			<id>scan</id>
