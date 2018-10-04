@@ -1,3 +1,8 @@
+Discontinued
+============
+This repository is no longer actively maintained.
+
+
 localization-properties-consistency-maven-plugin
 ================================================
 
